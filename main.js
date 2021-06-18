@@ -5,7 +5,6 @@ function initCanvas(){
     var backgroundImage = new Image();
     var naveImage   = new Image(); 
     var enemiespic1  = new Image(); 
-    var enemiespic2 = new Image(); 
     var pontoacao =0 
 
 
@@ -16,7 +15,7 @@ function initCanvas(){
     backgroundImage.src = "image/fondo_2.jpg"; 
     naveImage.src       = "image/nave.png"; 
     enemiespic1.src     = "image/enemigo-1.png";
-    enemiespic2.src     = "image/enemigo-2.png"; 
+     
    
 
     //variaveis canvas ancho e largo

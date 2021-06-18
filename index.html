@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #body{
+            background-image:url("Image/inicio-06.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .img7 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 300px;
+        }
+
+    </style>
+</head>
+
+<body id="body">
+    <img class="img7" src="Image/play.png" onclick="darplay()">
+    
+        <audio id="playmusic" autoplay> <source src="music/musica-daft-punk.mp3"> </audio> 
+        
+    
+    <script>
+        function darplay(){
+            window.location.href="jogo.html"
+        }
+
+        function music(){
+            playmusic.autoplay;
+
+        }
+        music();
+        
+    </script>
+
+</body>
+</html>

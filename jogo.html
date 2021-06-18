@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>Jogo Space Punk</title>
+<head>
+<script type="text/javascript" src = "main.js"></script>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<script>
+</script>
+</head>
+<body>
+  <div class="container">
+    <canvas id="my_canvas" width="900" height="700"></canvas>
+    
+    <div>
+      <button class = "boton" id="left_btn">Left</button>
+      <button class = "boton" id="fire_btn">Fire</button>
+      <button class = "boton" id="right_btn">Right</button>
+      
+
+   
+      <h2 class = "score">Score</h2>
+      <p class="num"></p>
+      <img class="img" src="./Image/home-14.png" onclick="home()">
+      <img class="img2" src="./Image/botao-sound (2).png" onclick="colocarsom()">
+      <img class="img5" src="Image/botao-tirar-som-14.png" onclick="removersom()">
+      <img class="img3" src="./Image/botao-help.png" onclick="ajuda()">
+      <img class="img4" src="Image/botao-play.png" onclick="retornar()">
+
+      <img id="img6" src="Image/instructions-10.png" onclick="desaparece()">
+      
+
+
+      <audio id="som" src="music/lasser-gun.mp3" type="audio/wav">O seu<em>browser</em>nao suporta o elemento </audio>
+
+        
+    </div>
+  </div>
+
+  
+
+
+
+  
+
+
+</body>  
+</html> 

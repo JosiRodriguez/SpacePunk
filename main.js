@@ -12,9 +12,9 @@ function initCanvas(){
     
     //imagens
 
-    backgroundImage.src = "image/fondo_2.jpg"; 
-    naveImage.src       = "image/nave.png"; 
-    enemiespic1.src     = "image/enemigo-1.png";
+    backgroundImage.src = "Image/fondo_2.jpg"; 
+    naveImage.src       = "Image/nave.png"; 
+    enemiespic1.src     = "Image/enemigo-1.png";
      
    
 
